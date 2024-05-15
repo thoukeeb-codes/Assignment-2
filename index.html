@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drag and drop UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <h1>Drag and Drop UI</h1>
+    </div>
+    <div class="container">
+      <div class="column">
+        <h1 style="background-color: lightblue">To do</h1>
+        <div draggable="true" class="item">Task 1</div>
+        <div draggable="true" class="item">Task 2</div>
+        <div draggable="true" class="item">Task 3</div>
+        <div draggable="true" class="item">Task 4</div>
+      </div>
+      <div class="column">
+        <h1 style="background-color: lightgreen">Working</h1>
+        <div draggable="true" class="item">Task 5</div>
+        <div draggable="true" class="item">Task 6</div>
+        <div draggable="true" class="item">Task 7</div>
+        <div draggable="true" class="item">Task 8</div>
+      </div>
+      <div class="column">
+        <h1 style="background-color: lightsalmon">Under Review</h1>
+        <div draggable="true" class="item">Task 9</div>
+        <div draggable="true" class="item">Task 10</div>
+        <div draggable="true" class="item">Task 11</div>
+        <div draggable="true" class="item">Task 12</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
